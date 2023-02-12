@@ -25,6 +25,7 @@ def parse_args() -> argparse.Namespace:
     parser_growing_tree.add_argument('w', type=int)
     parser_growing_tree.add_argument('h', type=int)
     parser_growing_tree.add_argument('--choice', type=str, default='default_choice')
+    parser_growing_tree.add_argument('--t', type=float, default=0)
     parser_growing_tree.set_defaults(func=growing_tree)
 
     if len(sys.argv) == 1:
