@@ -1,2 +1,0 @@
-# codestar-maze
-Maze Generators
